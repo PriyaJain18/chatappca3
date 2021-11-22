@@ -1,0 +1,85 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #root {
+    height: 100vh;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .joinOuterContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #1A1A1D;
+    background: url("../../bg2.jpg");
+    /* background-repeat: no-repeat; */
+    opacity: 94%;
+  }
+  
+  .joinInnerContainer {
+    width: 20%;
+  }
+  
+  .joinInput {
+    border-radius: 0;
+    padding: 15px 20px;
+    width: 100%;
+    -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+  box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+  }
+  
+  .heading {
+    color: white;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+  }
+  
+  .button {
+      color: rgb(241, 239, 248) !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: #1a3a6d;
+      padding: 20px;
+      border-radius: 5px;
+      display: inline-block;
+      border: none;
+      width: 100%;
+  }
+  .button:hover{
+    color: aqua; 
+    background-image: linear-gradient( rgb(106, 153, 207), rgb(2, 8, 8));
+    box-shadow: 2px 3px -px 2px green;
+    font-weight: 700;
+    font-size: medium;
+
+
+  }
+
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .joinOuterContainer {
+      height: 100%;
+    }
+  
+    .joinInnerContainer {
+      width: 90%;
+    }
+  
+  
+  }
+  
+  button:focus {
+    outline: 0;
+  }
